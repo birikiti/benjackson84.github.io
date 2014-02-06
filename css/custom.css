@@ -12,6 +12,10 @@
 	float: right;
 	margin-right: 40px !!important;
 }
+.is-left{
+	float: right;
+	margin-right: 40px !!important;
+}
 .gradient-ribbon{
 	background-image: -webkit-gradient(
 		linear,
@@ -25,6 +29,7 @@
 	background-image: -webkit-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
 	background-image: -ms-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
 	background-image: linear-gradient(to bottom, #7D7C7D 0%, #FFFFFF 80%);
+	height: 10em;
 }
 
 .centered-text p{
