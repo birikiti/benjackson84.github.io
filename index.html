@@ -23,6 +23,7 @@
     <![endif]-->
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/marketing.css">
+        <link rel="stylesheet" href="css/custom.css">
     <!--<![endif]-->
   
 
@@ -33,35 +34,33 @@
 <a id="home"></a>
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="" style="text-transform:none;">9th - 13th April 2014</a>
-        <ul> 
-            <li><a href="#get-involved">Get Involved</a></li>
-        </ul>
-        <ul>     
-            <li><a href="#tickets">Tickets</a></li>
-            <li><a href="#contact-us">Contact & How to Find Us</a></li>
-        </ul>
-        <ul> 
-            <li><a href="#submissions">Submissions</a></li>
-            <li><a href="#programme">Programme</a></li>
-        </ul>
-        <ul>
-            <li class="pure-menu-selected"><a href="#home">Home</a></li>
-            <li><a href="#about-us">About Us</a></li>
-        </ul>
+        <a class="pure-menu-heading is-right" href="" style="text-transform:none;">9th - 13th April 2014</a>
     </div>
+</div>
+<div id="sidebar-menu" class="pure-menu pure-menu-open pure-menu-fixed">
+    <img class="logo" src="/img/inhouse-logo.jpg" />
+    <ul id="std-menu-items">
+        <li class="pure-menu-selected"><a href="#home">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#submissions">Submissions</a></li>
+        <li><a href="#get-involved">Get Involved</a></li>
+        <li><a href="#programme">Programme</a></li>
+        <li><a href="#contact-us">Contact</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+    </ul>
 </div>
 
 <div class="splash-container">
     <div class="splash">
-        <h1 class="splash-head" style="text-transform:none;">inHOUSE Film Festival</h1>
-        <p class="splash-subhead">You are invited into the repurposed warehouses of Manor House for the very first inHOUSE Film Festival. Five days of Film, Music, Fashion and Art, celebrating the diverse artistic talent of the thriving local community and beyond.</p>
+        <p class="splash-subhead">You are invited into the repurposed warehouses of Manor House for the very first inHOUSE Film Festival. Five days of Film, Music, Fashion and Art, celebrating the diverse artistic talent of the thriving local community and beyond.
+        <br /><br /><br />
+        Come on in...</p>
     </div>
 </div>
 
 <div class="content-wrapper">
     <a id="tickets" class="anchor"></a>
-    <div class="ribbon l-box-lrg pure-g">
+    <div class="ribbon l-box-lrg pure-g gradient-ribbon">
         <div class="pure-u-1 pure-u-med-2-2 pure-u-lrg-5-5">
             <h1 class="content-head content-head-ribbon">Tickets</h1>
         </div>
@@ -71,7 +70,7 @@
         <h2 class="content-head is-center">About Us</h2>
 
         <div class="pure-g">
-            <div class="l-box pure-u-1 pure-u-med-2-2 pure-u-lrg-4-4">
+            <div class="l-box pure-u-1 pure-u-med-2-2 pure-u-lrg-4-4 centered-text">
                 <p>inHOUSE Film Festival celebrates the creativity and diversity of Haringey and its residents through visual arts across multi-media platforms.</p>
                 <p>Our mission is to boost the profile of Haringey, through collaboration with the permanent residents, the influx of young professionals of the last decade and using our connections to encourage interaction with the wider arts and media world. Looking at urban and social transformation we showcase some of the best and most innovative short films, music and fashion videos.</p>
                 <p>Set in the ex-industrial area of Haringey, the most diverse borough of the city, inHOUSE Film Festival explores a new vision of co-existing between the thriving local artistic community and the long term residents, trying to understand the changes that are affecting our society, our community using arts as the main form of inspiration.</p>
@@ -174,6 +173,23 @@ YUI().use('node-base', 'node-event-delegate', function (Y) {
         e.preventDefault();
     }, 'a[href="#"]');
 });
+YUI({
+    classNamePrefix: 'pure'
+}).use('gallery-sm-menu', function (Y) {
+
+    var verticalMenu = new Y.Menu({
+        container         : '#sidebar-menu',
+        sourceNode        : '#std-menu-items',
+        orientation       : 'vertical',
+        hideOnOutsideClick: false,
+        hideOnClick       : false
+    });
+
+    verticalMenu.render();
+    verticalMenu.show();
+
+});
+</script>
 </script>
 
 </body>

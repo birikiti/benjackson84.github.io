@@ -1,0 +1,32 @@
+#sidebar-menu{
+	width: 15%;
+	min-width: 150px;
+	opacity: 0.9;
+	border-radius: 5px 0;
+}
+
+.logo{
+	width: 100%;
+}
+.is-right{
+	float: right;
+	margin-right: 40px !!important;
+}
+.gradient-ribbon{
+	background-image: -webkit-gradient(
+		linear,
+		right top,
+		right bottom,
+		color-stop(0, #7D7C7D),
+		color-stop(0.8, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
+	background-image: -moz-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
+	background-image: -webkit-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
+	background-image: -ms-linear-gradient(bottom, #7D7C7D 0%, #FFFFFF 80%);
+	background-image: linear-gradient(to bottom, #7D7C7D 0%, #FFFFFF 80%);
+}
+
+.centered-text p{
+	margin: 1em 12em;
+}
