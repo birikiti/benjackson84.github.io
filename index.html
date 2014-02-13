@@ -34,6 +34,17 @@
 <a id="home"></a>
 <div class="header">
     <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <div class="pure-menu-heading is-right">
+            <!-- AddThis Follow BEGIN -->
+            <div class="addthis_toolbox addthis_32x32_style addthis_default_style">
+            <a class="addthis_button_facebook_follow" addthis:userid="inhousefilmfestival"></a>
+            <a class="addthis_button_twitter_follow" addthis:userid="inhouseff"></a>
+            <a class="addthis_button_google_follow" addthis:userid="108063886103746132137"></a>
+            </div>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-52fd3fe94a609162"></script>
+            <!-- AddThis Follow END -->
+
+        </div>
         <a class="pure-menu-heading is-right" href="" style="text-transform:none;">9th - 13th April 2014</a>
     </div>
 </div>
@@ -45,6 +56,8 @@
         <li><a href="#submissions">Submissions</a></li>
         <li><a href="#get-involved">Get Involved</a></li>
         <li><a href="#programme">Programme</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#credits">Credits</a></li>
         <li><a href="#contact-us">Contact</a></li>
         <li><a href="#tickets">Tickets</a></li>
     </ul>
@@ -54,12 +67,12 @@
     <div class="splash">
         <p class="splash-subhead">You are invited into the repurposed warehouses of Manor House for the very first inHOUSE Film Festival. Five days of Film, Music, Fashion and Art, celebrating the diverse artistic talent of the thriving local community and beyond.
         <br /><br /><br />
-        Come on in...<a href="https://plus.google.com/108063886103746132137" rel="publisher">Google+</a></p>
+        Come on in...</p>
     </div>
 </div>
 
-<div class="content-wrapper">
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+<div id="content" class="content-wrapper">
+    <img src="/img/banner-1.jpg" class="banner" />
     <a id="about-us" class="anchor"></a>
     <div class="content">
         <h2 class="content-head is-center">About Us</h2>
@@ -71,10 +84,21 @@
                 <p>Set in the ex-industrial area of Haringey, the most diverse borough of the city, inHOUSE Film Festival explores a new vision of co-existing between the thriving local artistic community and the long term residents, trying to understand the changes that are affecting our society, our community using arts as the main form of inspiration.</p>
                 <p>This inaugural year, the theme of the festival will be ‘Transformation’; through screenings, gigs, masterclasses and workshops, inHOUSE Film Festival nods towards the setting within a group of reappropriated industrial warehouses, initially created for industry, now housing a range of young, talented professionals, this expansive community is a hub for creativity and culture.</p>
             </div>
+            <div class="l-box pure-u-1 pure-u-med-2-2 pure-u-lrg-4-4 is-center">
+                <img class="team-pic" src="/img/alay.jpg"/>
+                <img class="team-pic" src="/img/cathleen.jpg"/>
+                <img class="team-pic" src="/img/angelica.jpg"/>
+                <img class="team-pic" src="/img/agnes.jpg"/>
+                <img class="team-pic" src="/img/douglas.jpg"/>
+                <br />
+                <a href="http://about.me/inhousefilmfestival" style="text-decoration: none; margin: 0 auto;">
+                    <img src="/img/aboutme.png" />
+                </a>
+            </div>
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+    <hr class="banner-1" />
     <a id="submissions" class="anchor"></a>
     <div class="content">
         <h2 class="content-head is-center">Submissions</h2>
@@ -92,7 +116,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+    <hr class="banner-2" />
     <a id="get-involved" class="anchor"></a>
     <div class="content">
         
@@ -119,8 +143,7 @@
         </div>
     </div>
 
-    
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+    <img src="/img/banner-2.jpg" class="banner" />
     <a id="programme" class="anchor"></a>
     <div class="content">
         
@@ -136,8 +159,19 @@
         </div>
     </div>
 
+    <hr class="banner-2" />
+    <a id="gallery" class="anchor"></a>
+    <div class="content">
+        <h2 class="content-head is-center">Gallery</h2>
+    </div>
 
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+    <hr class="banner-3" />
+    <a id="credits" class="anchor"></a>
+    <div class="content">
+        <h2 class="content-head is-center">Credits</h2>
+    </div>
+
+    <img src="/img/banner-3.jpg" class="banner" />
     <a id="contact-us" class="anchor"></a>
     <div class="content">
         <h2 class="content-head is-center">Contact</h2>
@@ -161,7 +195,7 @@
         </div>
     </div>
 
-    <div class="ribbon l-box-lrg pure-g gradient-ribbon"></div>
+    <hr class="banner-3" />
     <a id="tickets" class="anchor"></a>
     <div class="content">
         <h2 class="content-head is-center">Tickets</h2>
@@ -183,6 +217,7 @@
 </div>
 <!-- AddThisEvent -->
 <script type="text/javascript" src="http://js.addthisevent.com/atemay.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui.js"></script>
 <script>
 YUI().use('node-base', 'node-event-delegate', function (Y) {
@@ -209,6 +244,8 @@ YUI({
 
 });
 </script>
-
+<script src="/js/jquery.scrollto.min.js"></script>
+<script src="/js/jquery.localscroll.js"></script>
+<script src="/js/ihff.js"></script>
 </body>
 </html>

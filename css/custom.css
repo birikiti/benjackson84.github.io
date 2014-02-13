@@ -1,4 +1,5 @@
 #sidebar-menu{
+	height: 85%;
 	width: 15%;
 	min-width: 150px;
 	opacity: 0.9;
@@ -32,6 +33,36 @@
 	height: 10em;
 }
 
+.banner{
+	width: 100%;
+}
+.banner-1, .banner-2, .banner-3{
+	height: 4px;
+	width: 100%;
+}
+.banner-1{
+	background-color: #7500CA;
+}
+.banner-2{
+	background-color: #00B33E;
+}
+.banner-3{
+	background-color: #D61A2D;
+}
 .centered-text p{
 	margin: 1em 12em;
+}
+
+.splash-container{
+	left: 15%;
+	width: 85%;
+}
+
+#content{
+	left: 15%;
+	width: 85%;
+}
+
+.team-pic{
+	width: 15%;
 }
