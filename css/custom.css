@@ -66,3 +66,28 @@
 .team-pic{
 	width: 15%;
 }
+.about-menu li, .get-involved-menu li{
+	font-size: 1.5em;
+	width: 180px;
+}
+.get-involved-nav{
+	width: 30%;
+	margin: 1em 0 0 2em;
+	letter-spacing: 0em;
+	background-color: lightgray;
+}
+.get-involved-nav.pure-button-active{
+	background-color: gray;
+}
+.about-content, .get-involved-content{
+	display: none;
+}
+.pure-form input.paypal-submit-image{
+	border: none;
+	width: 160px;
+	height: 47px;
+}
+h2 a{
+	color: #34495e;
+	text-decoration: none;
+}
