@@ -59,10 +59,18 @@
 }
 
 #content{
+	top: 70px;
 	left: 15%;
 	width: 85%;
 }
-
+.home-content iframe{
+	height: 450px;
+	width: 800px;
+}
+.home-subtitle{
+	font-size: 1.2em;
+	text-align: center;
+}
 .team-pic{
 	width: 15%;
 }
