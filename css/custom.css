@@ -39,17 +39,9 @@
 .banner-1, .banner-2, .banner-3{
 	height: 4px;
 	width: 100%;
+	background-color: #4C0F28;
 }
-.banner-1{
-	background-color: #7500CA;
-}
-.banner-2{
-	background-color: #00B33E;
-}
-.banner-3{
-	background-color: #D61A2D;
-}
-.centered-text p{
+.centered-text p, .centered-text h4{
 	margin: 1em 12em;
 }
 
@@ -74,20 +66,19 @@
 .team-pic{
 	width: 15%;
 }
-.about-menu li, .get-involved-menu li{
+.about-menu li{
 	font-size: 1.5em;
-	width: 180px;
 }
-.get-involved-nav{
-	width: 30%;
-	margin: 1em 0 0 2em;
-	letter-spacing: 0em;
-	background-color: lightgray;
+.get-involved-menu li{
+	font-size: 1.3em;
 }
-.get-involved-nav.pure-button-active{
-	background-color: gray;
+.credits-menu li{
+	font-size: 1.3em;
 }
-.about-content, .get-involved-content{
+.programme-menu li{
+	font-size: 1.2em;
+}
+.about-content, .get-involved-content, .credits-content, .programme-content{
 	display: none;
 }
 .pure-form input.paypal-submit-image{
@@ -98,4 +89,10 @@
 h2 a{
 	color: #34495e;
 	text-decoration: none;
+}
+.black-subhead{
+	color: #000;
+}
+.contributor-team-member{
+	font-weight: bold;
 }
