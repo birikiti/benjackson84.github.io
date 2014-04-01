@@ -317,17 +317,17 @@
                 <p>Day pass £3</p>
                 <p>Week pass £10</p>
                 <form class="pure-form" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                    <input type="hidden" name="cmd" value="_s-xclick">
-                    <input type="hidden" name="hosted_button_id" value="9WRP8VYTM8LBY">
-                    <p>
-                        <select name="os0">
-                            <option value="Festival pass">Festival pass £10.00 GBP</option>
-                            <option value="Day pass - THU">Day pass - THU £3.00 GBP</option>
-                            <option value="Day pass - FRI">Day pass - FRI £3.00 GBP</option>
-                            <option value="Day pass - SAT">Day pass - SAT £3.00 GBP</option>
-                            <option value="Day pass - SUN">Day pass - SUN £3.00 GBP</option>
-                        </select>
-                    </p>
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="9WRP8VYTM8LBY">
+                <table>
+                <p><input type="hidden" name="on0" value="Passes"></p><select name="os0">
+                   <p> <option value="Festival pass">Festival pass £10.00 GBP</option>
+                    <option value="Day pass - Thu">Day pass - Thu £3.00 GBP</option>
+                    <option value="Day pass - Fri">Day pass - Fri £3.00 GBP</option>
+                    <option value="Day pass - Sat">Day pass - Sat £3.00 GBP</option>
+                    <option value="Day pass - Sun">Day pass - Sun £3.00 GBP</option>
+                </select> </p>
+                </table>
                     <input type="hidden" name="currency_code" value="GBP">
                     <input type="image" class="paypal-submit-image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
                     <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
@@ -336,6 +336,7 @@
         </div>
     </div>
     
+
 
     <div class="footer l-box is-center">
         View the source of this layout to learn more. Made with love by the YUI Team. Additions by <a href="http://github.com/benjackson84" style="color:white" target="_blank">Ben</a>
